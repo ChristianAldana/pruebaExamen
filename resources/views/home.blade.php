@@ -29,7 +29,9 @@
                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Registro</a>
+                <a href="{{ route("personas.index") }}" class="btn btn-primary">
+                    <span class="fas fa-user-plus"></span> BrandonFormulario
+                </a>
             </li>
 
 
